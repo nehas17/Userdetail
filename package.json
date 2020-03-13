@@ -11,7 +11,6 @@
   "dependencies": {
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.4",
-    "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-form": "^0.12.6",
     "express-handlebars": "^3.1.0",
