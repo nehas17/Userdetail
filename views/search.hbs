@@ -1,14 +1,12 @@
 {{#if server_error}}
-<div class="text-danger center">
-    <div class="btn "></div>
-    <p> {{server_error}}</p>
+<div class="text-danger">
+    <p class="btn-danger text-center"> {{server_error}}</p>
 </div>
 {{/if}}
 
 {{#if server_success }}
 <div class="text-success">
-    <div class="btn"></div>
-    <p>
+    <p class="btn-success text-center">
         {{server_success}}
     </p>
 </div>
@@ -25,7 +23,7 @@
                     <div class="form-field">
                         <label class="form-control-label" for="">Salary</label>
                         <input class="salary form-control" name="salary" type="number" placeholder="Enter your salary"
-                         data-validate="salary">
+                            data-validate="salary">
                         <span class="error_salary text-danger"></span>
                     </div>
                 </div>
